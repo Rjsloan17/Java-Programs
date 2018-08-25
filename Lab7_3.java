@@ -1,34 +1,27 @@
 import java.util.Scanner;
-
-        
+ 
 public class Lab7_3 
-
 {
  
  public static void main(String[] args) {
   Scanner in = new Scanner(System.in);
-  int userInput = in.nextInt();
-  int [] inputs = new int[100];
-  int count = 0;
-  do 
-  {
-      System.out.println("Please input a number between 50 and 100 inclusive: ");
-      for (int i = 0; i <= inputs.length; i++)
-      {
-          inputs[i++] += userInput;
-          count++;
-      }
-  } while(userInput >= 50 || userInput <= 100);
   
-  double sum = 0, average = 0;
-  
-for (int num: inputs){
-    sum += num;
-}          
-
-     System.out.println(sum/count);    
+  System.out.print("Input first number: ");
+  int num1 = in.nextInt();
    
+  System.out.print("Input second number: ");
+  int num2 = in.nextInt();
+   
+  System.out.print("Input third number: ");
+  int num3 = in.nextInt();
+   
+  System.out.print("Input fourth number: ");
+  int num4 = in.nextInt();
   
+  System.out.print("Enter fifth number: ");
+  int num5 = in.nextInt();  
   
+  System.out.println("Average of five numbers is: " + 
+   (num1 + num2 + num3 + num4 + num5) / 5);
  }
 }

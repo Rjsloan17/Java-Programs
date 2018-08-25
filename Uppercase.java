@@ -1,23 +1,42 @@
-import java.util.Arrays;
-
 import java.util.Scanner;
 
-public class Lab8_4 
-{
-    public static void main(String[] args) {
-        int[] numbers = new int[10];       
+public class Uppercase
 
-        for(int i = 0; i < numbers.length; i++) 
-        {
-          numbers[i] = (int)(Math.random()*20 + 1);
-        }
-    
-        for(int j = 0; j < numbers.length; j++)
-        {
-            if(numbers[j] == numbers[j + 1])
-            {
-                System.out.println("Contains adjacent value at position " + j);
-            }
-        }
-    }
+{
+    public static void main(String[] args)
+{
+     Scanner in = new Scanner(System.in);
+     
+     String answer = "", str = "";
+     while (!answer.toUpperCase().equals("BYE"))
+{
+System.out.print("Enter a string <To finish enter 'Bye'>: ");
+answer = in.nextLine();
+
+if (!answer.toUpperCase().equals("BYE")) str += answer + " ";
+
 }
+System.out.println(str);
+}
+}
+
+
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+           
