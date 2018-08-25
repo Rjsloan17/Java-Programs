@@ -1,19 +1,3 @@
-/***************************************************************
-******
-Author : Rnard Sloan
-Course : OS 1185
-Professor : Caryl Rahn
-Program : MemoryCalculator.java
-Purpose :  Each record in this file represents the possible location of an
-error found in RAM.
-Due Date : 7/1/2018
-Certification:
-I hereby certify that this work is my own and none of it is the
-work of any other person.
-..........{ Rnard Sloan }..........
-****************************************************************
-*****/
-
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;

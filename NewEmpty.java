@@ -1,26 +1,36 @@
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class NewEmpty
 {
-   public static void main ( String args[ ] )
-   {
-      Scanner in = new Scanner ( System.in );
-   
-      System.out.println ("Enter the year you were born: ");
-      int input = in.nextInt();
-   
-      if ( input < 1990 )
-      {
-         System.out.println ( "Born before 90s" );
-      }//end if statement
-      else if (input <= 1999) 
-      {
-         System.out.println ( "In the 90s" );
-      }//end else block
-      else if (input >= 2000)
-      {
-         System.out.println ( "2000s" );
-      }//end else block
-
-   }
+        public static void main(String[] args)
+        {
+int score = 0;
+Scanner in = new Scanner(System.in);
+System.out.print("Enter your score: ");
+score = in.nextInt();
+if (score < 40) 
+{
+   System.out.println("F"); 
+}   
+else if (score >= 40 || score < 50) 
+{ 
+   System.out.println("D"); 
+}   
+else if (score >= 50 || score < 60) 
+{ 
+   System.out.println("C"); 
+}   
+else if (score >= 60 || score < 70) 
+{ 
+   System.out.println("B");
+}   
+else if (score >= 70 || score < 80) 
+{ 
+   System.out.println("B+"); 
+}   
+else 
+{ 
+   System.out.println("A");
 }
+        }
+        }
