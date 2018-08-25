@@ -1,0 +1,13 @@
+public class DoWhileLoop
+
+
+{
+    public static void main(String[] args)
+    {
+        int count = 1;
+        do {
+            System.out.println("Count is: " + count + Math.pow(2, count) );
+            count++;
+        } while (count < 11);
+    }
+}
